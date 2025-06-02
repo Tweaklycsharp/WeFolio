@@ -1,16 +1,22 @@
-# WeFolio - Portfolio Web Personnel
+# WeFolio - Mon Portfolio Personnel
 
-Un portfolio web simple, élégant et responsive, créé avec HTML, CSS et JavaScript vanilla.
+Ce portfolio présente mes projets et compétences en développement web. Il a été conçu avec une approche minimaliste et moderne, mettant en valeur mes réalisations professionnelles.
+
+## ⚠️ Avis de droits d'auteur
+
+**IMPORTANT : Ce code n'est pas open source.**
+
+Tous droits réservés. Ce portfolio et son code source sont ma propriété intellectuelle. Toute utilisation, reproduction, modification ou distribution sans autorisation explicite est strictement interdite.
 
 ## Fonctionnalités
 
-- Design moderne et responsive
-- Animations fluides et interactives
-- Navigation sticky avec défilement fluide
-- Sections pour présentation personnelle, projets et contact
-- Cartes de projets animées
-- Icônes sociales interactives
-- Fond animé sur la page d'accueil
+- Design moderne et responsive adapté à tous les appareils
+- Thème clair/sombre avec persistance des préférences
+- Animations fluides et interactives pour une expérience utilisateur optimale
+- Navigation intuitive avec défilement fluide
+- Présentation de mes projets avec statut et dates de réalisation
+- Visionneuse d'images en modal pour les projets
+- Fond animé sur la page d'accueil avec effet parallaxe
 - Compatible avec tous les navigateurs modernes
 
 ## Structure du projet
@@ -21,70 +27,19 @@ WeFolio/
 ├── css/
 │   └── style.css       # Styles et animations CSS
 ├── js/
-│   └── main.js         # Fonctionnalités et animations JavaScript
+│   └── main.js         # Fonctionnalités et animations JavaScript (code obfusqué)
+├── image/              # Dossier contenant les images des projets
 └── README.md           # Documentation
 ```
 
-## Comment personnaliser
+## Contact
 
-### Informations personnelles
-
-1. Ouvrez `index.html` et modifiez:
-   - Votre nom (remplacez "Votre Nom" dans la section accueil)
-   - Votre titre/profession (remplacez "Développeur Web & Designer")
-   - Votre description personnelle
-   - Votre adresse email (remplacez "votre.email@exemple.com")
-   - Les liens vers vos réseaux sociaux
-
-### Projets
-
-Pour chaque projet dans la section "Mes Projets":
-
-1. Modifiez le titre du projet
-2. Ajoutez une description personnalisée
-3. Mettez à jour les technologies utilisées (balises tech-tag)
-4. Ajoutez les liens vers GitHub et/ou la démo
-
-Pour ajouter un nouveau projet, dupliquez simplement un bloc de projet existant:
-
-```html
-<div class="project-card">
-    <div class="project-content">
-        <h3>Titre du Projet</h3>
-        <p>Description du projet.</p>
-        <div class="tech-stack">
-            <span class="tech-tag">Technologie 1</span>
-            <span class="tech-tag">Technologie 2</span>
-        </div>
-        <div class="project-links">
-            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Démo</a>
-        </div>
-    </div>
-</div>
-```
-
-### Personnalisation des couleurs
-
-Pour changer la palette de couleurs, modifiez les variables CSS au début du fichier `css/style.css`:
-
-```css
-:root {
-    --primary-color: #6c63ff;     /* Couleur principale */
-    --secondary-color: #4a45b1;   /* Couleur secondaire */
-    --accent-color: #f0e7ff;      /* Couleur d'accent */
-    --text-color: #333;           /* Couleur de texte principale */
-    --light-text: #777;           /* Couleur de texte secondaire */
-    --bg-color: #ffffff;          /* Couleur de fond principale */
-    --light-bg: #f9f9f9;          /* Couleur de fond secondaire */
-}
-```
+Pour toute question concernant mon portfolio ou pour discuter d'opportunités professionnelles, n'hésitez pas à me contacter via les coordonnées indiquées dans la section contact du site.
 
 ## Utilisation
 
 1. Clonez ou téléchargez ce dépôt
-2. Personnalisez les fichiers selon vos besoins
-3. Hébergez les fichiers sur votre serveur web ou service d'hébergement préféré (GitHub Pages, Netlify, Vercel, etc.)
+2. Hébergez les fichiers sur votre serveur web ou service d'hébergement préféré (GitHub Pages, Netlify, Vercel, etc.)
 
 ## Compatibilité
 
@@ -101,3 +56,5 @@ Libre d'utilisation pour vos projets personnels ou professionnels.
 ---
 
 Créé avec ❤️ en 2025
+
+© 2025 - Tous droits réservés
